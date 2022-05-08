@@ -11,14 +11,14 @@ import lombok.Setter;
 
 /**
  * The main class of the application. It contains the main() method,
- * the first method called.
+ * the first metho
  */
 @NoArgsConstructor
 @AllArgsConstructor
 public class SampleJavaProject implements Runnable {
 
     /** The delay between printed messages. */
-    private static final long PRINT_DELAY = 1000L;
+    private static final long PRINT_DELAY = 2000L;
 
     /** The name to be printed in the output message. */
     @Getter @Setter @NonNull
